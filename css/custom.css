@@ -1,15 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Poppins";
+body {
+  font-family: "Poppins";
 }
 
-.container{
-    max-width: 1600px;
-    padding: 0 20px;
-    margin: 0 auto;
+.container {
+  max-width: 1600px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.custom_btn {
+  min-width: 150px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: #333;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(135deg, #0088cc 0%, #504bfd 80%);
+}
+
+/* Header */
+
+header {
+  padding: 15px 0;
+  background: linear-gradient(135deg, #0088cc 0%, #504bfd 80%);
+}
+
+header h1 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.header_outer,
+.header_outer ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+.header_outer nav ul li + li {
+  margin-left: 20px;
+}
+
+.social_icons {
+  margin-left: 20px;
+}
+
+.social_icons ul li,
+.social_icons ul li a {
+  display: inline-flex;
+}
+
+.social_icons ul li svg {
+  width: 20px;
+  height: 20px;
+}
+
+.social_icons ul li svg path {
+  fill: #fff;
+}
+
+nav a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* hero Section */
+
+.hero_content {
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.hero_content {
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.hero_text {
+    max-width: 50%;
+}
+
+.hero_text h1 {
+  font-size: 48px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.hero_text p {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin: 20px 0 10px;
+  max-width: 70%;
+  color: #666;
+}
+
+.hero_text a.custom_btn {
+    min-width: 200px;
+    margin-top: 30px;
 }
